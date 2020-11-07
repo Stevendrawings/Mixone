@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIXONE.</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700,900" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="css/modifprofil.css">
+  </head>
+  <body class="home page-template-default page page-id-1875 wpb-js-composer js-comp-ver-5.4.1 vc_responsive" id="carro">
+    <div class="wrapper">
+    <header class="color-m-nav navbar navbar-default">
+      <div class="container">
+      <div class="navbar navbar-default">
+      <div class="navbar-header">
+    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+    <span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    			</button>
+        <a class="navbar-brand line-top" href="index.html" rel="home"><h1>Mixone.</h1></a>
+    	</div>
+    <div class="col-sm-5 col-md-6 row">
+  <form class="navbar-center">
+  <div class="cal-input">
+    <input type="text" class="form-control search-first" placeholder="Rechercher...">
+      </div><a href="#" class="btn-first-input"><i class="icone-search"></i></a>
+        </form></div><div class="navbar-collapse collapse mainmenu" aria-expanded="false" style="height: 1px;">
+      <nav>
+    <ul class="nav navbar-nav navbar-right">
+  <li class="active"><a class="smoth-scroll" href="index.html">Accueil</a></li>
+<li class="active"><a class="smoth-scroll" href="dj.html">DJ</a></li>
+  <li class="last-fill-2" id="popUpMixone"><a class="smoth-scroll">Connexion</a></li>
+  <li class="active">
+  <div class="dropdown open" style="display:inline-block">
+  <a class="smoth-scroll link-choice" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+      </a>
+  <ul class="dropdown-menu" id="drop" aria-labelledby="dropdownMenu1">
+  <li><a class="nav-link" href="profil.html">Mon compte</a></li>
+  <!-- target blanck Mon compte = modification des mix et d'équipement, portfolio, réservation slider  -->
+  <li><a class="nav-link" href="modifieleprofil.html">Modifier le profile</a></li>
+  <!-- target blanck Modifié le profile = inforamations perso et donnés persos-->
+  <li><a class="nav-link" href="mesdisponibilite.html">Mes disponibilités</a></li>
+  <!-- target blanck dispo = agenda et mes tarifs-->
+  <li><a class="nav-link" href="logout.html">Déconnexion</a></li>
+  </ul>
+  </div>
+  </li>
+  </ul>
+    </nav>
+      <div class="overfull"></div>
+      <div class="popupmixone text-center">
+      <div class="closedpop"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+      <h2>Identifiez-vous</h2>
+      <div class="col-md-12 fondinput">
+      <input type="login" class="form-control" id="idPop" placeholder="Connexion">
+      <input type="password" class="form-control" id="mpPop" placeholder="Mot de passe">
+    <div class="btnmixone"><strong strong class="whitepop-text">Connectez vous avec Mixone</strong></div></div>
+  <p class="text-center"><strong>Cliquer sur le lien </strong>ci-dessous pour vous <strong>inscrire</strong><p>
+<hr/>
+  <a href="#" class="linkinscrip">Inscrivez-vous</a></div>
+    </header>
+      </div>
+        <div class="fondblock">
+          <div class="container">
+            <div class="row">
+              <div class="head">Données personnelles</div>
+              <div class="col-md-6">
+      <form action="#" id="login-form">
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Nom d'artiste</span>
+          </label>
+          <input type="text" name="pseudo" class="form-control-mfd" />
+        </div>
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Prenom</span>
+          </label>
+          <input type="text" name="prenom" class="form-control-mfd" />
+        </div>
+        <div class="form-group">
+          <label class="label-control">
+            <span class="label-text">Nom</span>
+          </label>
+          <input type="text" name="nom" class="form-control-mfd" />
+        </div>
+          <div class="form-group">
+            <label class="label-control">
+              <span class="label-text">Email</span>
+            </label>
+            <input type="email" name="email" class="form-control-mfd" />
+          </div>
+          <div class="form-group">
+            <label class="label-control">
+              <span class="label-text">Quel est votre date de naissance ?</span>
+            </label>
+            <input type="email" name="email" class="form-control-mfd" />
+          </div>
+</form>
+        </div>
+          <div class="col-md-6">
+            <form action="#" id="login-form">
+              <div class="form-group">
+                <label class="label-control">
+                  <span class="label-text">Téléphone</span>
+                </label>
+                <input type="text" name="numero" class="form-control-mfd" />
+              </div>
+              <div class="form-group">
+                <label class="label-control">
+                  <span class="label-text">Code Postal</span>
+                </label>
+                <input type="text" name="cp" class="form-control-mfd" />
+              </div>
+                <div class="form-group">
+                  <label class="label-control">
+                    <span class="label-text">Addresse de résidence</span>
+                  </label>
+                  <input type="text" name="address" class="form-control-mfd" />
+                </div>
+                <input type="submit" value="Enregistrer" class="btn" />
+          </div>
+
+      </form>
+    </div>
+</div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="head">Adresse de facturation</div>
+      <div class="col-md-6">
+<form action="#" id="login-form">
+<div class="form-group">
+  <label class="label-control">
+    <span class="label-text">Adresse de facturation</span>
+  </label>
+  <input type="text" name="pseudo" class="form-control-mfd" />
+</div>
+<div class="form-group">
+  <label class="label-control">
+    <span class="label-text">Code Postal</span>
+  </label>
+  <input type="text" name="prenom" class="form-control-mfd" />
+</div>
+</form>
+</div>
+  <div class="col-md-6">
+    <form action="#" id="login-form">
+      <div class="form-group">
+        <label class="label-control">
+          <span class="label-text">Ville</span>
+        </label>
+        <input type="text" name="numero" class="form-control-mfd" />
+      </div>
+      <div class="form-group">
+        <label class="label-control">
+          <span class="label-text">Pays</span>
+        </label>
+        <input type="text" name="numero" class="form-control-mfd" />
+      </div>
+    <input type="submit" value="Valider" class="btn" />
+  </div>
+
+</form>
+</div>
+</div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="head">Informations Bancaire</div>
+      <div class="col-md-6">
+<form action="#" id="login-form">
+<div class="form-group">
+  <label class="label-control">
+    <span class="label-text">Banque</span>
+  </label>
+  <input type="text" name="pseudo" class="form-control-mfd" />
+</div>
+<div class="form-group">
+  <label class="label-control">
+    <span class="label-text">IBAN (fr uniquement)* </span>
+  </label>
+  <input type="text" name="prenom" class="form-control-mfd" />
+</div>
+
+</form>
+</div>
+  <div class="col-md-6">
+    <form action="#" id="login-form">
+      <div class="form-group">
+        <label class="label-control">
+          <span class="label-text">BIC*</span>
+        </label>
+        <input type="text" name="numero" class="form-control-mfd" />
+      </div>
+    <input type="submit" value="Valider" class="btn" />
+  </div>
+
+</form>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="head">Informations Principal</div>
+    <div class="col-md-6">
+<form action="#" id="login-form">
+<div class="form-group">
+<label class="label-control">
+  <span class="label-text"></span>
+</label>
+<select id="weather" class="form-control-mfd">
+  <option value="">Etes-vous auto-entrepreneur ou une société ?</option>
+  <option value="0">Société</option>
+  <option value="1">Auto-entrepreneur</option>
+</select>
+</div>
+<div class="form-group">
+<label class="label-control">
+  <span class="label-text" style="text-transform:uppercase">n°siren</span>
+</label>
+<input type="text" name="prenom" class="form-control-mfd" />
+</div>
+
+</form>
+</div>
+<div class="col-md-6">
+  <form action="#" id="login-form">
+    <div class="form-group">
+      <label class="label-control">
+        <span class="label-text" style="position:static">Pièce d'identité RECTO* :</span>
+      </label>
+      <input type="file" name="numero" class="form-control-mfd" />
+    </div>
+    <div class="form-group">
+      <label class="label-control">
+        <span class="label-text" style="position:static">Pièce d'identité VERSO* :</span>
+      </label>
+      <input type="file" name="numero" class="form-control-mfd" />
+    </div>
+    <div class="form-group">
+      <label class="label-control">
+        <span class="label-text" style="position:static">Passport* :</span>
+      </label>
+      <input type="file" name="numero" class="form-control-mfd" />
+    </div>
+    <input type="submit" value="Valider" class="btn" />
+</div>
+
+</form>
+</div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="head">A propos de vous</div>
+<form action="#" id="login-form">
+<div class="form-group">
+<label class="label-control">
+</label>
+<textarea style="width:100%; padding:20px;" name="textarea" rows="3" cols="50" placeholder="Décrivez vous "></textarea>
+</div>
+  <input type="submit" value="Valider" class="btn" />
+</form>
+
+</form>
+</div>
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="head">Mes types de musique</div>
+    <div class="col-md-6">
+<form action="#" id="login-form">
+
+<div class="col-md-6">
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Top 50</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Hip Hop / RnB</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Musiques du monde</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Disci / Funk</label>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Electronique</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Pop Rock</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">Loung chill</label>
+</div>
+<div class="form-group">
+  <input type="checkbox" id="scales" name="feature" value="scales" checked />
+    <label for="scales" style="color:#000">80's / 90's</label>
+</div>
+</div>
+</div>
+
+</form>
+</div>
+
+</form>
+</div>
+</div>
+
+<script>
+  var choiceForm = document.querySelector("select");
+  function sendweather(){
+    var choix = choiceForm.value
+      if(choix === "0"){
+        console.log(0)
+      } else if(choix === "1"){
+        console.log(1)
+      } else {
+        console.debug("Le champ n'a pas été selectionné");
+      }
+  }
+choiceForm.addEventListener('click', sendweather)
+</script>
+
+    </div>
+      </div>
+    </div>
+    </body>
+      <script src="js/jquery.min.js"></script>
+      <script>
+      $('.form-group input').on('focus blur', function (e) {
+        $(this).parents('.form-group').toggleClass('active', (e.type === 'focus' || this.value.length > 0)); }).trigger('blur');
+      </script>
+        <script src="js/wow.js"></script>
+        <script src="js/wp-embed.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        </body>
+      </html>

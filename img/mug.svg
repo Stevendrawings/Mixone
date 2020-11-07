@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 768 768" style="enable-background:new 0 0 768 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-225.8577" y1="-170.6205" x2="899.1868" y2="954.424">
+				<stop  offset="0" style="stop-color:#7B15FF"/>
+				<stop  offset="1" style="stop-color:#C100E9"/>
+			</linearGradient>
+			<path class="st0" d="M653.9,737.7c-15.1,0-27.5-12.8-27.5-28.5c0-15.7,12.3-28.5,27.5-28.5c15.1,0,27.5,12.8,27.5,28.5
+				C681.4,724.9,669.1,737.7,653.9,737.7z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-210.1214" y1="-186.3568" x2="914.923" y2="938.6877">
+				<stop  offset="0" style="stop-color:#7B15FF"/>
+				<stop  offset="1" style="stop-color:#C100E9"/>
+			</linearGradient>
+			<path class="st1" d="M632,145l-0.1-0.1c-1.4-1-2.7-1.8-3.5-2.3c-8.5-5.2-18.4-7.9-28.6-7.9H315.5c-8.4,0-16.5,3.5-22.1,9.6
+				c-5.6,6-8.3,13.9-7.6,22c1.3,15.1,14.1,26.8,29.2,26.8h280.5l-2.5,38.7H178.2l-2.5-38.7h55.2c7.5,0,13.6-6.1,13.6-13.6V87.9
+				l293.2,18.6c16.1,1,30-11.3,31-27.3c0.5-7.8-2.1-15.3-7.2-21.1c-5.2-5.9-12.3-9.4-20.1-9.9L240.5,29.1l-1.9,0
+				c-3.2,0-6.1,0.2-9,0.7c-5,0.8-9.9,2.4-14.5,4.6l-0.6,0.3l-0.6,0.3c-17.3,9-28.1,26.4-28.1,45.3v54.6H171
+				c-30,0-54.4,23.7-54.4,52.8v1.3l0.1,0.4l5.6,88.2c0.5,7.2,6.4,12.8,13.6,12.8h18.4l45.9,389.4H200c-8.4,0-16.5,3.5-22.1,9.6
+				c-5.6,6-8.3,13.9-7.6,22c1.3,15,14.1,26.8,29.2,26.8h371.2c8.4,0,16.5-3.5,22.1-9.6c5.6-6,8.3-13.9,7.6-22.1
+				c-1.2-15-14-26.8-29.2-26.8h-0.6l45.9-389.4h18.4c7.2,0,13.2-5.6,13.6-12.8l5.3-85.7l0.2-0.4v-4.2C654,170.8,645.8,154.9,632,145
+				z M557.6,290.5l-45.9,389.4H259l-45.9-389.4H557.6z"/>
+		</g>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MIXONE.</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:400,700,900" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/nav.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/profilu.css">
+  </head>
+  <body class="home page-template-default page page-id-1875 wpb-js-composer js-comp-ver-5.4.1 vc_responsive" id="carro">
+    <div class="wrapper">
+    <header class="color-m-nav navbar navbar-default">
+      <div class="container">
+      <div class="navbar navbar-default">
+      <div class="navbar-header">
+    <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+    <span class="sr-only"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+    			</button>
+        <a class="navbar-brand line-top" href="index.html" rel="home"><h1>Mixone.</h1></a>
+    	</div>
+    <div class="col-sm-5 col-md-6 row">
+  <form class="navbar-center">
+  <div class="cal-input">
+    <input type="text" class="form-control search-first" placeholder="Rechercher...">
+      </div><a href="#" class="btn-first-input"><i class="icone-search"></i></a>
+        </form></div><div class="navbar-collapse collapse mainmenu" aria-expanded="false" style="height: 1px;">
+      <nav>
+    <ul class="nav navbar-nav navbar-right">
+  <li class="active"><a class="smoth-scroll" href="index.html">Accueil</a></li>
+<li class="active"><a class="smoth-scroll" href="dj.html">DJ</a></li>
+  <li class="last-fill-2" id="popUpMixone"><a class="smoth-scroll">Connexion</a></li>
+  <li class="active">
+  <div class="dropdown open" style="display:inline-block">
+  <a class="smoth-scroll link-choice" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+    <i class="fa fa-cog" aria-hidden="true"></i>
+      </a>
+  <ul class="dropdown-menu" id="drop" aria-labelledby="dropdownMenu1">
+  <li><a class="nav-link" href="profil.html">Mon compte</a></li>
+  <!-- target blanck Mon compte = modification des mix et d'équipement, portfolio, réservation slider  -->
+  <li><a class="nav-link" href="modifieleprofil.html">Modifier le profile</a></li>
+  <!-- target blanck Modifié le profile = inforamations perso et donnés persos-->
+  <li><a class="nav-link" href="mesdisponibilite.html">Mes disponibilités</a></li>
+  <!-- target blanck dispo = agenda et mes tarifs-->
+  <li><a class="nav-link" href="logout.html">Déconnexion</a></li>
+  </ul>
+  </div>
+  </li>
+  </ul>
+    	</nav>
+      <div class="overfull"></div>
+      <div class="popupmixone text-center">
+      <div class="closedpop"><i class="fa fa-times-circle" aria-hidden="true"></i></div>
+      <h2>Identifiez-vous</h2>
+      <div class="col-md-12 fondinput">
+      <input type="login" class="form-control" id="idPop" placeholder="Connexion">
+      <input type="password" class="form-control" id="mpPop" placeholder="Mot de passe">
+      <div class="btnmixone"><strong strong class="whitepop-text">Connectez vous avec Mixone</strong></div></div>
+      <p class="text-center"><strong>Cliquer sur le lien </strong>ci-dessous pour vous <strong>inscrire</strong><p>
+      <hr/>
+      <a href="#" class="linkinscrip">Inscrivez-vous</a></div>
+    </header></div>
+<div class="background-0">
+<div class="container">
+  <div class="booking-content">
+  <h1><strong>Choisir vos disponibilités pour que vous puissiez etre en contact avec votre DJ.<strong></h1>
+<p style="color:#000">Trouvez les meilleures date d'évenements qui correspond à vos besoins.</p>
+
+<div class="repertory">
+  <div><input type="text" value="" name="" class="search-first item-date" placeholder="Lieu de l'évenements "/><a href="#" class="localsearch"><i class="fa fa-map-marker" aria-hidden="true"></i></a></div>
+<div class="item-date search-first" id="dropEvent">
+  <div class="rub-drop"><div><p><strong>Type d'évenement</strong></p></div><div><span><i class="fa fa-caret-down"></i></span></div></div>
+  <div class="drop-content search-first off-drop">
+    <ul>
+      <li><input class="checkbox-drop" type="checkbox" value="0" name="one" /><span><p><strong>Mariage</strong></p></span></li>
+      <li><input class="checkbox-drop" type="checkbox" value="1" name="two" /><span><p><strong>Club</strong></p></span></li>
+      <li><input class="checkbox-drop" type="checkbox" value="2" name="tree" /><span><p><strong>Bar / restaurant</strong></p></span></li>
+      <li><input class="checkbox-drop" type="checkbox" value="3" name="four" /><span><p><strong>Anniversaire</strong></p></span></li>
+      <li><input class="checkbox-drop" type="checkbox" value="4" name="five" /><span><p><strong>Entreprise</strong></p></span></li>
+    </ul>
+  </div>
+</div>
+<script>
+var rub = document.getElementById("dropEvent");
+var yub = document.querySelector(".drop-content");
+var check = document.querySelectorAll(".checkbox-drop");
+rub.addEventListener("click", function(){
+yub.classList.toggle("on-drop") })
+yub.addEventListener("click", function(event){
+event.stopPropagation() })
+for(var i = 0; i < check.length; i = i + 1){
+  check[i].addEventListener("click", (function(i){
+    return function(event){
+      planiferDate()
+      console.log(check[i])
+    }})(i))}
+</script>
+<div class="item-date">
+<div class="rub-drop">
+  <input class="search-first" type="date" value="" name="calndrier" style="border:none"/>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+  <div style="margin-top:30px;"></div>
+<h1>Mon aganda</h1>
+<p>Selectionné une date et appliqué vos majorations</p>
+<p>Vous pouvez selectionner un période en clicquant sur le premier et le dernier jous de cette dernière</p>
+  <div class="calendar-content">
+    <div class="month">
+      <div class="content-arrow">
+        <li class="prev-calendar"> <i class="fa fa-angle-left" aria-hidden="true"></i> </li>
+        <li class="next-calendar"> <i class="fa fa-angle-right" aria-hidden="true"></i> </li>
+      </div>
+    <li><h1 style="color:white">2018</h1><h1 style="color:white">August</h1><span style="font-size:70px; color:white">8</span></li>
+  </div>
+<div class="weekdays-content">
+  <ul class="weekslist">
+        <li>Lun</li>
+        <li>Mar</li>
+        <li>Mer</li>
+        <li>Jeu</li>
+        <li>Ven</li>
+        <li>Sam</li>
+        <li>Dim</li>
+      </ul>
+      <ul class="days">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+        <li>11</li>
+        <li>12</li>
+        <li>13</li>
+        <li>14</li>
+        <li>15</li>
+        <li>16</li>
+        <li>17</li>
+        <li>18</li>
+        <li>19</li>
+        <li>20</li>
+        <li>21</li>
+        <li>22</li>
+        <li>23</li>
+        <li>24</li>
+        <li>25</li>
+        <li>26</li>
+        <li>27</li>
+        <li>28</li>
+        <li>29</li>
+        <li>30</li>
+        <li>31</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="title-presta">
+<h1>Mes tarifs</h1>
+<div style="width:50%">
+<p style="text-align:center; position:relative; left:85px">tarifs prestations TTC</p>
+</div>
+</div>
+<form action="#" id="login-form">
+<div class="inputbuy">
+<div class="col-md-6">
+<div class="form-group active caleinput">
+  <div>
+    <input name="feature" value="scales" checked="" type="checkbox">
+    <label for="scales" style="color:#000">Mariage</label>
+  </div>
+  <div><input type="text" class="search-first" name="" value="" /></div>
+</div>
+<div class="form-group active caleinput">
+  <div>
+    <input name="feature" value="scales" checked="" type="checkbox">
+    <label for="scales" style="color:#000">Evenement Entreprise</label>
+  </div>
+  <div><input type="text" class="search-first" name="" value="" /></div>
+</div>
+<div class="form-group active caleinput">
+  <div>
+    <input name="feature" value="scales" checked="" type="checkbox">
+    <label for="scales" style="color:#000">Evenement privée</label>
+  </div>
+  <div><input type="text" class="search-first" name="" value="" /></div>
+</div>
+<div class="form-group active caleinput">
+  <div>
+    <input name="feature" value="scales" checked="" type="checkbox">
+    <label for="scales" style="color:#000">Club</label>
+  </div>
+  <div><input type="text" class="search-first" name="" value="" /></div>
+</div>
+<div class="form-group active caleinput">
+  <div>
+    <input name="feature" value="scales" checked="" type="checkbox">
+    <label for="scales" style="color:#000">bar / restaurant</label>
+  </div>
+  <div><input type="text" class="search-first" name="" value="" /></div>
+</div>
+</div>
+</div>
+</form>
+</div>
+</div></div></div></div>
+  </body>
+    <script src="js/jquery.min.js"></script>
+      <script src="js/owl.carousel.js"></script>
+      <script>
+        $('.owl-carousel').owlCarousel({
+        loop:true, dots: false, nav:true,
+        responsive:{
+            0:{ items:1 },
+            600:{ items:3 },
+            1000:{ items:5 } } })
+        </script>
+        <script src="js/wow.js"></script>
+        <script src="js/wp-embed.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        </body>
+      </html>
